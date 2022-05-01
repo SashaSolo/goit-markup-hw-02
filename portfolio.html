@@ -5,17 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>Портфолио</title>
 </head>
     <body>
         <!-- Шапка сайта -->
-        <header>
+        <header id="navigation">
             <nav>
                 <ul>
-                    <li><a href="./"><span>Web</span>Studio</a></li>
-                    <li><a href="./">Студия</a></li>
-                    <li><a href="./">Портфолио</a></li>
-                    <li><a href="./">Контакты</a></li>
+                    <li><a class="logo-main" href="./"><span class="logo-blue">Web</span>Studio</a></li>
+                    <li><a class="navigation-link" href="./">Студия</a></li>
+                    <li><a class="navigation-link" href="./">Портфолио</a></li>
+                    <li><a class="navigation-link" href="./">Контакты</a></li>
                 </ul>
             </nav>
                 <ul>
@@ -24,32 +27,51 @@
                 </ul>
         </header>
         <section>
+            <h1>Список работ</h1>
             <ul>
-                <li><a href="">Все</a></li>
-                <li><a href="">Веб-сайты</a></li>
-                <li><a href="">Приложения</a></li>
-                <li><a href="">Дизайн</a></li>
-                <li><a href="">Маркетинг</a></li>
+                <li><div class="button-style"><button class="button-font" type="button">Все</button></div></li>
+                <li><div class="button-style"><button class="button-font" type="button">Веб-сайты</button></div></li>
+                <li><div class="button-style"><button class="button-font" type="button">Приложения</button></div></li>
+                <li><div class="button-style"><button class="button-font" type="button">Дизайн</button></div></li>
+                <li><div class="button-style"><button class="button-font" type="button">Маркетинг</button></div></li>
             </ul>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><div class="project-list"><img src="images\web-site-techcrack.jpg" alt="" width="370">
+                    <div class="title-size"><h2 class="title">Технокряк</h2>
+                    <p class="title-class">Веб-сайт</p></div></div></li>
+                <li><div class="project-list"></div><img src="images\poster-basketball.jpg" alt="" width="370">
+                    <h2 class="title">Постер New Orlean vs Golden State</h2>
+                    <p class="title-class">Дизайн</p></div></li>
+                <li><div class="project-list"></div><img src="images\app-restaurant.jpg" alt="" width="370">
+                    <h2 class="title">Ресторан Seafood</h2>
+                    <p class="title-class">Приложение</p></div></li>
+                <li><div class="project-list"></div><img src="images\marketing-headphones.jpg" alt="370" width="">
+                    <h2 class="title">Проект Prime</h2>
+                    <p class="title-class">Маркетинг</p></div></li>
+                <li><div class="project-list"></div><img src="images\app-boxes.jpg" alt="" width="370">
+                    <h2 class="title">Проект Boxes</h2>
+                    <p class="title-class">Приложение</p></div></li>
+                <li><div class="project-list"></div><img src="images\web-site-noborders.jpg" alt="370" width="">
+                    <h2 class="title">Inspiration has no Borders</h2>
+                    <p class="title-class">Веб-сайт</p></div></li>
+                <li><div class="project-list"></div><img src="images\design-book.jpg" alt="" width="370">
+                    <h2 class="title">Издание Limited Edition</h2>
+                    <p class="title-class">Дизайн</p></div></li>
+                <li><div class="project-list"></div><img src="images\marketing-lab.jpg" alt="" width="370">
+                    <h2 class="title">Проект LAB</h2>
+                    <p class="title-class">Маркетинг</p></div></li>
+                <li><div class="project-list"></div><img src="images\app-business.jpg" alt="" width="370">
+                    <h2 class="title">Growing Business</h2>
+                    <p class="title-class">Приложение</p></div></li>
             </ul>
         </section>
         
         <!-- Футер -->
         <footer>
-            <p><a href="./"><span>Web</span>Studio</a></p>
-            <address><p>г. Киев, пр-т Леси Украинки, 26</p></address>
-            <p>info@example.com</p>
-            <p>+38 099 111 11 11</p>
+            <p><a class="logo-main" href="./"><span class="logo-blue">Web</span>Studio</a></p>
+            <address><p class="navigation-link">г. Киев, пр-т Леси Украинки, 26</p></address>
+            <p class="navigation-link">info@example.com</p>
+            <p class="navigation-link">+38 099 111 11 11</p>
         </footer>    
     </body>
 </html>
