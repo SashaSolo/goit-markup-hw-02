@@ -1,0 +1,57 @@
+body {
+    font-family: "Roboto", "Raleway", sans-serif ;
+    color: #212121;
+    
+
+}
+.navigation {
+    font-size: 14px;
+    line-height:1,15;
+}
+.logo-main {
+    font-size: 26px;
+    line-height: 1.2;
+}
+.logo-blue {
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.navigation-link {
+    color: black;
+    font-size: 16px;
+    line-height: 1.6
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+    color: blue;
+}
+
+.button {
+    color: black;
+    background-color: #F5F4FA;
+    cursor: pointer;
+}
+.button:hover,
+.button:focus {
+    color: white;
+    background-color: #2196F3;
+    
+}
+
+.project-list {
+}
+.title {
+
+    font-size: 18px;
+    line-height: 2; 
+
+}
+.title-class {
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.9;  
+
+
+}

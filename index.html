@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -12,18 +12,18 @@
 </head>
     <body>
         <!-- Шапка сайта -->
-        <header>
-            <nav class="navigation">
+        <header class="navigation">
+            <nav>
+                <a class="logo-main" href="./"><span class="logo-blue">Web</span>Studio</a>
                 <ul>
-                    <li><a class="logo-main" href="./"><span class="logo-blue">Web</span>Studio</a></li>
-                    <li><a class="navigation" href="./">Студия</a></li>
-                    <li><a class="navigation" href="./">Портфолио</a></li>
-                    <li><a class="navigation" href="./">Контакты</a></li>
+                    <li><a class="navigation-link" href="index.html">Студия</a></li>
+                    <li><a class="navigation-link" href="portfolio.html">Портфолио</a></li>
+                    <li><a class="navigation-link" href="./">Контакты</a></li>
                 </ul>
             </nav>
                 <ul>
-                    <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    <li><a class="navigation-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="navigation-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
         </header>
         <!-- Основной блок -->
@@ -70,22 +70,22 @@
             <ul>
                 <li>
                     <a href=""><img src="images/designer.jpg" alt="Дизайнер" width="270" height="260"></a>
-                    <h4>Игорь Демьяненко</h4>
+                    <h3>Игорь Демьяненко</h3>
                     <p>Product Designer</p>                    
                 </li>
                 <li>
                     <a href=""><img src="images/developer.jpg" alt="Фронтэнд Разработчик" width="270" height="260"></a>
-                    <h4>Ольга Репина</h4>
+                    <h3>Ольга Репина</h3>
                     <p>Frontend Developer</p>                    
                 </li>
                 <li>
                     <a href=""><img src="images/marketing.jpg" alt="Маркетинг" width="270" height="260"></a>
-                    <h4>Николай Тарасов</h4>
+                    <h3>Николай Тарасов</h3>
                     <p>Marketing</p>                    
                 </li>
                 <li>
                     <a href=""><img src="images/ui.jpg" alt="Дизайнер оформления" width="270" height="260"></a>
-                    <h4>Михаил Ермаков</h4>
+                    <h3>Михаил Ермаков</h3>
                     <p>UI Designer</p>                    
                 </li>
             </ul>
@@ -94,10 +94,12 @@
 
         <!-- Футер -->
         <footer>
-                <p><a class="logo-main" href="./"><span class="logo-blue">Web</span>Studio</a></p>
+                <a class="logo-main" href="./"><span class="logo-blue">Web</span>Studio</a>
                 <address><p>г. Киев, пр-т Леси Украинки, 26</p></address>
-                <p>info@example.com</p>
-                <p>+38 099 111 11 11</p>
+                <ul>
+                    <li><p>info@example.com</p></li>
+                    <li><p>+38 099 111 11 11</p></li>
+                </ul>             
         </footer>    
     </body>
 </html>
