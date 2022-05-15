@@ -1,57 +1,150 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif ;
+    font-family: "Roboto", "Raleway", sans-serif;
     color: #212121;
-    
-
 }
-.navigation {
+
+/* header*/
+
+.nav {
     font-size: 14px;
-    line-height:1,15;
+    line-height:1,2;
 }
-.logo-main {
+
+.logo-main  {
+    color: #000;
+    font-family: 'Raleway';
+    font-weight: 700;
     font-size: 26px;
-    line-height: 1.2;
+    line-height: 1.15;
 }
+
 .logo-blue {
+    color: #2196F3;
+    font-family: 'Raleway';
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
 }
 
-.navigation-link {
+.nav-link {
     color: black;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.6
 }
 
-.navigation-link:hover,
-.navigation-link:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: blue;
 }
 
+/* main page */
+.hero {
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+}
+
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+}
+.spec {
+    
+}
+.spec-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+.spec-about {
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+
+}
+.directions {
+    
+}
+.directions-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+.directions-works {
+}
+.team {
+}
+.team-title {
+}
+.team-member {
+}
+.teammate-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.teammate-position {
+    font-size: 16px;
+    line-height: 19px;
+    color: #757575;
+
+}
+/* portfolio */
 .button {
     color: black;
     background-color: #F5F4FA;
     cursor: pointer;
 }
+
 .button:hover,
 .button:focus {
     color: white;
     background-color: #2196F3;
-    
 }
 
 .project-list {
 }
-.title {
 
+.title-project {
+    font-weight: 700;
     font-size: 18px;
     line-height: 2; 
-
 }
+
 .title-class {
     color: #757575;
     font-size: 16px;
     line-height: 1.9;  
+}
 
+/* footer */
+
+.footer {
+    background-color:  #2F303A;
+}
+
+.logo-footer {
+    color: #fff;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.15;
+}
+
+.address {
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF
+}
+
+.contacts-footer {
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
 
 }
